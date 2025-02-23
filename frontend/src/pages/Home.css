@@ -1,0 +1,12 @@
+.search-input {
+  height: 34px; /* Adjust the height as needed */
+  border-radius: 8px; /* Add border radius to all sides */
+}
+
+.input-group {
+  margin: 40px 0; /* Add margin from the top and bottom */
+}
+
+.recipe-card-container {
+  padding: 0 5px; /* Add padding to the card container */
+}

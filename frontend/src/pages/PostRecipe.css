@@ -1,0 +1,26 @@
+.post-recipe-form {
+  background: linear-gradient(135deg, #8B4513, #D2B48C); /* Brownish gradient background */
+  padding: 2rem;
+  border-radius: 8px;
+  
+  font-family: 'Source Sans Pro', sans-serif; /* Apply font to the form */
+}
+
+.post-recipe-form h2 {
+  font-family: 'Dancing Script', cursive; /* Apply font to the heading */
+}
+
+.post-recipe-form .form-label {
+  font-family: 'Raleway', sans-serif; /* Apply font to the labels */
+  font-weight: 600;
+}
+
+.post-recipe-form .form-control {
+  font-family: 'Source Sans Pro', sans-serif; /* Apply font to the input fields */
+}
+
+.post-recipe-form .btn {
+  width: 100px;
+  font-family: 'Oswald', sans-serif; /* Apply font to the button */
+  font-weight: 700;
+}

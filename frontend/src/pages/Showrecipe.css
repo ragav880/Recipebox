@@ -1,0 +1,29 @@
+.text-white {
+  color: #ffffff;
+}
+
+.showrecipe-card {
+  background-color: #535556f1; /* Same background color as Recipecard */
+  border: none; /* Remove border */
+  border-radius: 0; /* Remove rounded corners */
+  padding: 0; /* Remove padding */
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 800px; /* Set a maximum width for the card */
+  margin: 0 auto; /* Center the card horizontally */
+  display: flex;
+  flex-direction: column;
+}
+
+.showrecipe-card img {
+  border-radius: 0; /* Remove rounded corners from the image */
+  margin: 0; /* Remove margin */
+  width: 100%; /* Make the image fill the card */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.ingredients-list {
+  columns: 2; /* Create a two-column layout */
+  -webkit-columns: 2; /* For Safari */
+  -moz-columns: 2; /* For Firefox */
+}

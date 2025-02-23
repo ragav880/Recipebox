@@ -1,0 +1,58 @@
+.save-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  transition: color 0.3s;
+}
+
+.save-btn:hover {
+  color: #ccc;
+}
+
+.save-btn.text-danger {
+  color: #dc3545;
+}
+
+.save-btn.text-danger:hover {
+  color: #a71d2a;
+}
+
+.recipe-card {
+  background-color: #495057f1; /* Beige */
+  border: none; /* Remove border */
+  border-radius: 0; /* Remove rounded corners */
+  padding: 0; /* Remove padding */
+  box-shadow: none; /* Remove shadow */
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Make the card take full width */
+  margin-bottom: 10px; /* Add a small gap between cards */
+}
+
+.recipe-card img {
+  border-radius: 0; /* Remove rounded corners from the image */
+  margin: 0; /* Remove margin */
+  width: 100%; /* Make the image fill the card */
+  height: 300px; /* Decrease the height for the image */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.recipe-card h5 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.recipe-card p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.recipe-card .btn {
+  font-family: 'Oswald', sans-serif;
+}
+
+.text-style {
+  color: #fffbfc;
+}
