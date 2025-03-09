@@ -6,8 +6,8 @@ const router = express.Router();
 // Create a new user (POST)
 router.post("/", async (req, res) => {
   try {
-    const { name, email, password, phone } = req.body;
-    const user = new User({ name, email, password, phone });
+    const { name, email, password } = req.body;
+    const user = new User({ name, email, password });
     await user.save();
     res.status(201).json(user);
   } catch (error) {
@@ -50,10 +50,10 @@ router.get("/email/:email", async (req, res) => {
 // Update a user by ID (PUT)
 router.put("/:id", async (req, res) => {
   try {
-    const { name, email, password, phone } = req.body;
+    const { name, email, password  } = req.body;
     const user = await User.findByIdAndUpdate(
       req.params.id,
-      { name, email, password, phone },
+      { name, email, password },
       { new: true } // Return updated user
     );
     if (!user) return res.status(404).json({ message: "User not found" });

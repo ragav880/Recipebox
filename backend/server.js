@@ -19,5 +19,6 @@ connectDB();
 
 // Routes
 app.use("/api/users", require("./routes/userRoutes"));
+app.use("/api/recipes", require("./routes/recipeRoutes")); // Added route for recipes
 
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
